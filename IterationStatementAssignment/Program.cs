@@ -53,7 +53,10 @@ namespace IterationStatementAssignment
 
             catch
             {
+                Console.WriteLine("");
                 Console.WriteLine("A numeric value beween 1 and 100 was not given!");
+                Console.WriteLine("Press any key to exit the program.");
+                Console.ReadKey(true);
             }
         }
     }
